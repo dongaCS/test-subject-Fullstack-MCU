@@ -1,0 +1,59 @@
+body {
+  margin: 30px;
+  color: white;
+  background: black;
+}
+
+
+a {
+  display: inline-block;
+  color: aqua;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+nav a {
+  padding: 10px 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 15px;
+}
+
+th,
+td {
+  color: white;
+}
+
+
+.movie {
+  /* background-color: red; */
+  position: absolute;
+  width: 75%;
+  height: 70%;
+  left: 12.5%;
+  right: 12.5%
+}
+
+.left {
+  /* background-color: green; */
+  width: 40%;
+  height: 90%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.right {
+  /* background-color: pink; */
+  width: 60%;
+  height: 90%;
+  display: inline-block;
+  
+  align-content: center;
+}
